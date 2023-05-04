@@ -22,6 +22,8 @@ $.ajax(settings).done(function (response) {
     console.log(item);
 
     $("#all-blogs").append(`
+    <div class="col-sm-12 col-md-4 col-lg-4">
+
     <div class="card" >
     <img class="card-img-top" src="./assets/images/lamp-800.jpg.webp" alt="Card image cap">
 
